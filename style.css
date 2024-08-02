@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #8b9b8b;
+    background: -webkit-radial-gradient(to right, #ededed, #8b9b8b);
+    background: linear-gradient(to right, #ededed, #8b9b8b);
+    width: 100%;
+    height: 100%;
+    counter-reset: section;
+}
+
+.text {
+    font-family: "Almendra", serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.box1 {
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 4px;
+    background: #abbaab;
+    background: -webkit-linear-gradient(to right, #ffffff, #abbaab);
+    background: linear-gradient(to right, #ffffff, #abbaab);
+
+}
+
+.box2 {
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 4px;
+    background: #abbaab;
+    background: -webkit-linear-gradient(to right, #ffffff, #abbaab);
+    background: linear-gradient(to right, #ffffff, #abbaab);
+
+
+}
+
+.box3 {
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 4px;
+    background: #abbaab;
+    background: -webkit-linear-gradient(to right, #ffffff, #abbaab);
+    background: linear-gradient(to right, #ffffff, #abbaab);
+
+}
+
+.fee-box {
+    margin-top: 3%;
+    margin-bottom: 4%;
+    margin-left: 1%;
+    width: 200px;
+    height: 120px;
+    background: #abbaab;
+    background: -webkit-linear-gradient(to right, #ffffff, #abbaab);
+    background: linear-gradient(to right, #ffffff, #abbaab);
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+#total-fee {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.fee-box p {
+    font-family: 'Almendra', serif;
+    font-weight: 501;
+}
+
+.table-container {
+    width: 60%;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#add-btn {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(254, 254, 254);
+    background-color: black;
+    padding: 10px 15px;
+    margin-top: 2%;
+    width: 150px;
+}
+
+
+
+.counter::before {
+    counter-increment: section;
+    content: counter(section) ")";
+}
+
+
+
+
+
+@media only screen and (max-width: 682px) {
+    .table-container {
+        width: 100%;
+        margin-left: 3%;
+        margin-right: 3%;
+        padding-right: 3%;
+    }
+
+    #add-btn {
+        width: 100px;
+    }
+
+}
+
+@media only screen and (max-width: 990px) {
+
+.box1{
+    margin-bottom: 1.5%;
+}
+.box2{
+    margin-bottom: 1.5%;
+}
+.box3{
+    margin-bottom: 1.5%;
+}
+}
